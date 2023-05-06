@@ -11,7 +11,15 @@ C968 Inventory Management System - Made using C# in Visual Studio according to t
 
 Competencies
 
-4041.3.1 : Classes and Interfaces The graduate designs software solutions with appropriate classes, objects, methods, and interfaces to achieve specific goals. 4041.3.2 : Object-Oriented Principles The graduate implements object-oriented design principles (e.g., inheritance, encapsulation, and abstraction) in developing applications for ensuring the application’s scalability. 4041.3.3 : Application Development The graduate produces applications using high-level programming language constructs to meet business requirements. 4041.3.4 : Exception Handling The graduate incorporates simple exception handling in application development for improving user experience and application stability. 4041.3.5 : User Interface Development The graduate develops user interfaces to meet project requirements. Introduction
+4041.3.1 : Classes and Interfaces The graduate designs software solutions with appropriate classes, objects, methods, and interfaces to achieve specific goals. 
+
+4041.3.2 : Object-Oriented Principles The graduate implements object-oriented design principles (e.g., inheritance, encapsulation, and abstraction) in developing applications for ensuring the application’s scalability.
+
+4041.3.3 : Application Development The graduate produces applications using high-level programming language constructs to meet business requirements. 
+
+4041.3.4 : Exception Handling The graduate incorporates simple exception handling in application development for improving user experience and application stability.
+
+4041.3.5 : User Interface Development The graduate develops user interfaces to meet project requirements. Introduction
 
 Throughout your career in software design and development, you will be asked to create applications with various features and functionality based on business requirements. When a new system is developed, typically the process begins with a business analyst gathering and writing these business requirements, with the assistance of subject matter experts from the business. Then a system analyst works with several application team members and others to formulate a solution based on the requirements. As a developer, you would then create a design document from the solution and finally develop the system based on your design document.
 
@@ -33,7 +41,7 @@ Your submission must be your original work. No more than a combined total of 30%
 
 You must use the rubric to direct the creation of your submission because it provides detailed criteria that will be used to evaluate your work. Each requirement below may be evaluated by more than one rubric aspect. The rubric aspect titles may contain hyperlinks to relevant portions of the course.
 
-I. User Interface
+                                                                      I. User Interface
 
 Create a C# application with a graphical user interface (GUI) based on the attached “GUI Mock-Up.” Write code to display each of the following forms in the GUI:
 
@@ -47,7 +55,8 @@ D . An add product form, showing the following controls: • buttons for “Save
 
 E. A modify product form, with fields that populate with data from an existing product, showing the following controls: • buttons for “Save,” “Cancel,” “Add” part, and “Delete” part • text boxes for ID, name, inventory level, price, and max and min values • labels for ID, name, inventory level, price, max and min values, and the application “all candidate parts” • a grid view for parts associated with the product • a “Search” button and a text box with associated list for displaying the results of the search
 
-II. Application
+
+                                                                     II. Application
 
 Now that you’ve created the GUI, write code to create the class structure provided in the attached “UML (unified modeling language) Class Diagram.” Enable each of the following capabilities in the application:
 
@@ -56,7 +65,6 @@ F. Using the attached “UML Class Diagram,” create appropriate classes and in
 G. Add the following functionalities to the main form, using the methods provided in the attached “UML Class Diagram”: • redirect the user to the “Add Part,” “Modify Part,” “Add Product,” or “Modify Product” forms • delete a selected part or product from the grid view • search for a part or product and display matching results • exit the main form
 
 H. Add the following functionalities to the part forms, using the methods provided in the attached “UML Class Diagram”:
-
 “Add Part” form • select “In-House” or “Outsourced” • enter name, inventory level, price, max and min values, and company name or machine ID • save the data and then redirect to the main form • cancel or exit out of this form and go back to the main form
 “Modify Part” form • select “In-House” or “Outsourced” • modify or change data values • save modifications to the data and then redirect to the main form • cancel or exit out of this form and go back to the main form
 
